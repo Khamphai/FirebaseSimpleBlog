@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "703369351673",
+    "firebase_url": "https://khamphai99664257.firebaseio.com",
+    "project_id": "khamphai99664257",
+    "storage_bucket": "khamphai99664257.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703369351673:android:50c4064b8338fc62",
+        "android_client_info": {
+          "package_name": "khamphai.org.simpleblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703369351673-uslop7qrshel6itipkdpqlpemsrs7m7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcBjBCIPhWxdCTfZ48XUb1qThnaUaBi1o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

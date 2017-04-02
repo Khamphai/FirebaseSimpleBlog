@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_set_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="khamphai.org.simpleblog.SetUpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layout_margin="15dp"
+                android:background="@drawable/ic_account_circle_red_100_48dp"
+                android:id="@+id/imbSetUpProfile"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+
+            <EditText
+                android:layout_margin="8dp"
+                android:padding="15dp"
+                android:background="@drawable/border_edittext"
+                android:id="@+id/edtSetUpName"
+                android:hint="Enter Your Display Name..."
+                android:singleLine="true"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnSetUp"
+                android:layout_margin="8dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:text="Finished SetUp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
